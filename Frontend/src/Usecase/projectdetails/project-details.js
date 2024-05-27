@@ -296,6 +296,8 @@ function Projectdetails() {
                     <TextField
                       type="Description"
                       variant="outlined"
+                      multiline
+                      rows={2}
                       autoFocus
                       name="Description"
                       sx={{
@@ -343,7 +345,7 @@ function Projectdetails() {
                         m: 1,
                         width: 300,
                         position: "relative",
-                        bottom: -60,
+                        bottom: -65,
                         right: -20,
                         "& .MuiOutlinedInput-root": {
                           "& fieldset": {
@@ -377,7 +379,7 @@ function Projectdetails() {
                       <Select
                         name="Team"
                         labelId="demo-multiple-name-label"
-                        style={{ height: "53px" }}
+                        style={{ height: "73px" }}
                         multiple
                         value={personName}
                         onChange={handleChange1}
