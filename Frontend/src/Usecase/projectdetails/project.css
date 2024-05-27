@@ -70,7 +70,7 @@
 
 .sidebar {
   background-color: #1c1d1d;
-  z-index: 1000;
+  z-index: 500;
   position: fixed;
   overflow: hidden;
   top: 69px;

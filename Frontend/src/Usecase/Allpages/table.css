@@ -5,7 +5,7 @@
   position: relative;
   bottom: 40px;
   border-collapse: collapse;
-  height: 200px;
+  height: 230px;
   top: 90px;
   width: 1120px;
   left: 145px;
@@ -15,19 +15,26 @@ th {
   position: sticky;
   top: 0;
   background-color: #fff; /* Or any background color you prefer */
-  z-index: 1; /* Ensure it stays above the table body */
+  z-index: 0; /* Ensure it stays above the table body */
 }
 #tab2 {
   padding: 1px;
-  overflow-x: auto; /* Changed to overflow-y */
+  overflow-x: auto;
   position: relative;
   bottom: 40px;
   border-collapse: collapse;
-  max-height: 600px;
+  max-height: 500px;
   top: 90px;
   width: 1120px;
   left: 145px;
   padding: 5px;
+}
+.scrollable-cell1 {
+  max-width: 150px; /* Adjust the height as needed */
+ max-height: 10px;
+  overflow-y: auto;
+  padding: 5px; /* Optional: Adjust padding as needed */
+  
 }
 .viewusecase1 {
   position: relative;
@@ -182,6 +189,7 @@ th {
 
 td {
   font-size: 20px;
+  height: 20px;
 }
 #tddd {
   /* border: 1px groove rgb(71, 232, 100); */
@@ -354,3 +362,4 @@ td {
 #usecase-nav {
   cursor: pointer;
 }
+

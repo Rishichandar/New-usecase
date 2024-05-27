@@ -215,7 +215,7 @@ const Admin = () => {
                 <tr key={obj.Projectid}>
                   <td>{obj.Title}</td>
                   <td>{obj.Email}</td>
-                  <td>{obj.Description}</td>
+                  <td className="scrollable-cell1">{obj.Description}</td>
                   <td>{obj.Team}</td>
                   <td>{obj.Startdate.substring(0, 10)}</td>
                   <td>{obj.Deadline.substring(0, 10)}</td>
@@ -294,7 +294,7 @@ const Admin = () => {
               <tr>
                 <td>{projectData.Title}</td>
                 <td>{projectData.Email}</td>
-                <td>{projectData.Description}</td>
+                <td className="scrollable-cell1">{projectData.Description}</td>
                 <td>{projectData.Team}</td>
                 <td>{projectData.Startdate}</td>
                 <td>{projectData.Deadline}</td>

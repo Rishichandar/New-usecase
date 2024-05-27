@@ -304,7 +304,8 @@ export const UsecaseReadEdit = () => {
                       className="enabled-input"
                     />
                   ) : (
-                    new Date(usecase.enddate).toLocaleDateString()
+                    // new Date(usecase.enddate).toLocaleDateString()
+                    usecase.enddate ? new Date(usecase.enddate).toLocaleDateString() : "no date added"
                   )}
                 </td>
                 {Roleid !== 1 && (

@@ -67,6 +67,8 @@ const names = [
   "Nivetha",
   "sabari",
   "Dhandapani",
+  "Theo",
+  "Lokesh"
 ];
 
 const VisuallyHiddenInput = styled("input")({
@@ -113,7 +115,7 @@ function Usecase() {
     setSelectedDate(date);
     setFormData((prevState) => ({
       ...prevState,
-      enddate: date ? date.toISOString() : "",
+      enddate: date ? date.toISOString() : null,
     }));
   };
 

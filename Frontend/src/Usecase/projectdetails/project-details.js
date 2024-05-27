@@ -67,6 +67,8 @@ const names = [
   "Nivetha",
   "sabari",
   "Dhandapani",
+  "Theo",
+  "Lokesh"
 ];
 
 function getStyles(name, personName, theme) {

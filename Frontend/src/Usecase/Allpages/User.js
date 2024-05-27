@@ -289,7 +289,7 @@ function User() {
                 yourData.map((obj) => (
                   <tr key={obj.Projectid}>
                     <td>{obj.Title}</td>
-                    <td>{obj.Description}</td>
+                    <td  className="scrollable-cell2">{obj.Description}</td>
                     <td>{obj.Team}</td>
                     <td>{obj.Startdate.substring(0, 10)}</td>
                     <td>{obj.Deadline.substring(0, 10)}</td>
