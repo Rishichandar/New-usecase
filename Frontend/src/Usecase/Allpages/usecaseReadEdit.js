@@ -249,7 +249,8 @@ export const UsecaseReadEdit = () => {
                     usecase.summary
                   )}
                 </td>
-                <td>
+                {/* <td> */}
+                <td className={editModeId === usecase.id ? 'editing' : 'scrollable-cell3'}>
                   {editModeId === usecase.id ? (
                     <input
                       id="edit-input"

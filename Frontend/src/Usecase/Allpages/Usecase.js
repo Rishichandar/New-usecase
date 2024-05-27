@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -115,7 +117,7 @@ function Usecase() {
     setSelectedDate(date);
     setFormData((prevState) => ({
       ...prevState,
-      enddate: date ? date.toISOString() : null,
+      enddate: date ? date.toISOString() : "",
     }));
   };
 

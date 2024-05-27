@@ -49,14 +49,14 @@ const Sidebar1 = () => {
            
             <button type="button" onClick={handleAttendanceManagementClick}>
               <span >
-                <RiAdminFill size={18} />
+              <Link to="/main"><RiAdminFill size={18} color="white" /></Link>
               </span>
              <Link to="/main" style={{textDecoration:"none"}}> <p className="navbar-item">Attendance</p></Link>
             </button>
             
             <button type="button" onClick={handleProjectManagementClick}>
               <span>
-              <LiaProjectDiagramSolid size={22}/>
+              <Link to="/home"><LiaProjectDiagramSolid size={22} color="white"/></Link>
               </span>
              <Link  to="/home"style={{textDecoration:"none"}}><p className="navbar-item">Project</p></Link> 
             </button>
